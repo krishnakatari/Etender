@@ -1,0 +1,7 @@
+Username:Tdaka
+Tender Id:null
+Tender Name:tender1
+Quoataion Price:456
+Minimum amount:null
+Company experience:12
+Timestamp:2019-03-25 16:19:33.857

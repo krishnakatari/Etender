@@ -1,0 +1,147 @@
+//valid user client
+					//out.println("hii bro");
+//changes done here
+					File dir=new File("D:\\"+orgUname);//change the directory name to some different folder
+					 if (!dir.exists())
+					    {
+           					if (dir.mkdir())
+							 {
+               						   out.println("Directory is created!");
+           						 }
+							else 
+							 {
+               						 out.println("Failed to create directory!");
+         					      }
+       				     }//directory creation
+					else
+					{
+						 if(dir.isDirectory())
+						 {
+							 File[] files = dir.listFiles();
+							 if(files.length==0)
+							 {
+								 //the folder is empty need to create a new file
+								 File file=new File("C:\\1.txt");
+								 if (file.createNewFile())
+								 {
+									//the tender details should be kept here in this file
+									//FileWriter writer = new FileWriter(file);
+									//writer.write("Test data");
+									//writer.close();
+								 }
+								 
+							 }
+							 else //a file already exists
+							 {
+								 // the files should be linked here
+								 File list = new File("D:\\Mahe Docs");
+								 File[] list1 = list.listFiles();
+								 String[] s=list1[list1.length-1].getName().split(".");
+							     int no=Integer.parseInt(s[1]);
+								 File file=new File("C:\\"+(no+1));
+								 if (file.createNewFile())
+								 {
+									//the tender details should be kept here in this file
+									//FileWriter writer = new FileWriter(file);
+									//writer.write("Test data");
+									//writer.close();
+								 }
+								 
+							 }
+						 }
+					}
+				//valid user cliet
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+		//Linked list creation		
+				
+				class Node
+{
+	File f1;
+	String tp1="",hash1="";
+	public Node(File f,String hash,String tp)
+	{
+		f1=f;
+		hash1=hash;
+		tp1=tp;
+		
+	}
+	createNode(File f,String hash,String tp)
+	{
+	LinkedList<Node> linky = new LinkedList<Node>();
+    Node nn = new Node(f,hash,tp);
+    linky.add(nn);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class Node 
+{
+	File f1;
+	String tp1="",hash1="";
+	public Node(File f,String hash,String tp)
+	{
+		f1=f;
+		hash1=hash;
+		tp1=tp;
+		
+	}
+	createNode(File f,String hash,String tp)
+	{
+	LinkedList<Node> link = new LinkedList<Node>();
+    Node nn = new Node(f,hash,tp);
+    link.add(nn);
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Login/Register</title>
+<link rel="stylesheet" href="style.css"> 
+</head>
+
+
+<body>
+<div class="Login-page">
+<div class="form" >
+
+
+<form class="login-form" action=log.com >
+ <input type="text" name="username" placeholder="Username"/></br>
+ <input type="password" name="password" placeholder="Password"/></br>
+<button type="submit">Login</button>
+<p class="message">Not Registered?  <a href="#">Register</a></p>
+ </form>
+ 
+ 
+ <form class="register-form" action=clientTenderer.com >
+<button type="submit" name="btn" value="ClientReg">Client</button></br></br>
+<button type="submit" name="btn" value="TendererReg">Tenderer</button>
+ <p class="message" >Already Registered?  <a href="#">Login</a></p>
+ 
+ </form>
+  </div>
+ </div>
+<script  src='https://code.jquery.com/jquery-3.3.1.min.js'>
+</script>
+<script >
+$('.message a').click(function(){
+$('form').animate({height:"toggle",opacity:"toggle"},"fast");
+}); 
+ </script>
+</body>
+
+
+</html>

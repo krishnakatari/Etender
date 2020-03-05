@@ -1,0 +1,83 @@
+<web-app>
+  <servlet>
+ <servlet-name>A</servlet-name>
+ <servlet-class>clientTenderer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>A</servlet-name>
+	 <url-pattern>/clientTenderer.com</url-pattern>
+  </servlet-mapping>
+  <servlet>
+ <servlet-name>B</servlet-name>
+ <servlet-class>log</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>B</servlet-name>
+	 <url-pattern>/log.com</url-pattern>
+  </servlet-mapping>
+  <servlet>
+ <servlet-name>C</servlet-name>
+ <servlet-class>clientReg</servlet-class>     
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>C</servlet-name>
+	 <url-pattern>/clientReg.com</url-pattern>
+  </servlet-mapping>
+    <servlet>
+ <servlet-name>D</servlet-name>
+ <servlet-class>tendererReg</servlet-class>     
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>D</servlet-name>
+	 <url-pattern>/tendererReg.com</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+ <servlet-name>E</servlet-name>
+ <servlet-class>log2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>E</servlet-name>
+	 <url-pattern>/log2.com</url-pattern>
+  </servlet-mapping>
+
+  
+  <servlet>
+ <servlet-name>F</servlet-name>
+ <servlet-class>log3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>F</servlet-name>
+	 <url-pattern>/log3.com</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+ <servlet-name>G</servlet-name>
+ <servlet-class>clientlog2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>G</servlet-name>
+	 <url-pattern>/clientlog2.com</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+ <servlet-name>H</servlet-name>
+ <servlet-class>clientlog3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>H</servlet-name>
+	 <url-pattern>/clientlog3.com</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ <servlet-name>I</servlet-name>
+ <servlet-class>cupdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>I</servlet-name>
+	 <url-pattern>/cupdate.com</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

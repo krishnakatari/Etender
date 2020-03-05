@@ -1,0 +1,5 @@
+@display
+
+close date is not printing completely
+
+string space termination
